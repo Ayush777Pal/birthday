@@ -782,3 +782,33 @@ body, html{
     height: 30px;
   }
 }
+@media (max-width: 600px) {
+  #bl--right,
+  #bl--left {
+    display: none;
+  }
+}
+
+.site-footer {
+  text-align: center;
+  padding: 15px 10px;
+  background: #111;       /* dark background */
+  color: #fff;            /* white text */
+  font-size: 1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.site-footer span {
+  font-weight: bold;
+  color: #ff4b5c;         /* highlight your name */
+}
+
+/* 📱 Responsive font size */
+@media (max-width: 600px) {
+  .site-footer {
+    font-size: 0.9rem;
+    padding: 12px;
+  }
+}
