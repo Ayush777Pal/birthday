@@ -765,3 +765,20 @@ body, html{
 		height:200px;
 	}
 }
+
+@media (max-width: 600px) {
+  .second--canvas {
+    flex-direction: column;   /* stack items vertically */
+    text-align: center;
+    gap: 12px;                /* spacing between items */
+  }
+
+  .second--canvas .content h2 {
+    font-size: 1.5rem;        /* smaller font for mobile */
+  }
+
+  .canvas--remove {
+    width: 30px;
+    height: 30px;
+  }
+}
